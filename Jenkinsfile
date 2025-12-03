@@ -17,7 +17,7 @@ pipeline {
     stages {
         stage ('checking'){
             steps {
-                git branch:'main', url: 'https://github.com/Mimoosa/ShoppingCartPractice.git'
+                git branch:'main', url: 'https://github.com/Mimoosa/shoppinngCartPractice.git'
             }
         }
         stage ('build') {
